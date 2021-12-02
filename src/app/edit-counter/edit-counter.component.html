@@ -1,0 +1,9 @@
+<main class="d-flex flex-column justify-content-center align-items-center">
+<p>edit-counter</p>
+
+<input [(ngModel)]="variable" type="text" >
+<section class="d-flex flex-row justify-content-between">
+<button (click)="this.addendum.add(variable)"> Aggiungi</button>
+<button (click)="this.addendum.sub(variable)">Sottrai</button>
+</section>
+</main>
